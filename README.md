@@ -53,11 +53,11 @@ as `my-key.json`.
 
 #### Generate an Ed25519 keypair
 ```
-vc keygen --key-type ed25519 --git-hub-token YOUR_GITHUB_TOKEN
+vc keygen --key-type ed25519 --git-hub-token YOUR_GITHUB_TOKEN > my-key.json
 ```
 #### Generate a Secp256k1 keypair
 ```
-vc keygen --key-type secp256k1 --git-hub-token YOUR_GITHUB_TOKEN
+vc keygen --key-type secp256k1 --git-hub-token YOUR_GITHUB_TOKEN > my-key.json
 ```
 
 ### Issue a Verifiable Credential
