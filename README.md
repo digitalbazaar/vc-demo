@@ -81,7 +81,7 @@ consisting of the issued Verifiable Credential.
 To verify a Verifiable Credential, the following command can be used:
 
 ```
-vc verify --verbose < alumni-signed.jsonld
+vc verify < alumni-signed.jsonld
 ```
 
 The verification result will be printed to the screen.
