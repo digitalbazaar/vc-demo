@@ -24,7 +24,7 @@ Running this demo consists of:
 ### Cloning the Repository
 
 ```
-git clone git@github.com:digitalbazaar/vc-demo.git
+git clone https://github.com/digitalbazaar/vc-demo.git
 cd vc-demo
 ```
 
