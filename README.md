@@ -51,11 +51,14 @@ Token you created in the previous step. The private key information
 as well as where the public key was published will be saved locally
 as `my-key.json`.
 
+#### Generate an Ed25519 keypair
 ```
 vc keygen --key-type ed25519 --git-hub-token YOUR_GITHUB_TOKEN
 ```
-
-Note that it is also possible to generate and use secp256k1 keys.
+#### Generate a Secp256k1 keypair
+```
+vc keygen --key-type secp256k1 --git-hub-token YOUR_GITHUB_TOKEN
+```
 
 ### Issue a Verifiable Credential
 
