@@ -28,9 +28,9 @@ git clone https://github.com/digitalbazaar/vc-demo.git
 cd vc-demo
 ```
 
+### Create an Alias
 The rest of this demo assumes that you have created the following command
 line alias:
-
 ```
 alias vc='docker run -i -v $(pwd):/home/node/app/key-file digitalbazaar/vc-js-cli'
 ```
