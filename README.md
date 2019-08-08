@@ -32,7 +32,7 @@ The rest of this demo assumes that you have created the following command
 line alias:
 
 ```
-alias vc='docker run -i digitalbazaar/vc-js-cli'
+alias vc='docker run -i -v $(pwd):/home/node/app/key-file digitalbazaar/vc-js-cli'
 ```
 
 ### Getting a GitHub Personal Access Token
